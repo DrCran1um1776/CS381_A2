@@ -1,0 +1,87 @@
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: rgb(65, 231, 121); /*Changed the from lightblue to its current green hue*/
+  width: 200px;
+  height: 370px;
+  text-align: center;
+  transition: 1s;  
+  transform-origin: 0;
+  
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: rgb(38, 6, 180); /*Changed the font color from black to its current purple hue*/
+  font-family: Times New Roman;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 150px;
+  height: 150px;
+}
+
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: rgb(65, 231, 121); /*Changed the from white to its current green hue*/
+  width: 200px;
+  height: 370px;
+  text-align: center;
+}
+
+#inside-title {
+  color: black;
+  font-family: Times New Roman; /*Changed the font style to 'Times New Roman'*/
+  font-size: 14pt; /*changed the font size from 12pt to 14pt*/
+  text-align: center;
+}
+
+#inside-pic {
+  width: 150px;
+  height: 150px;
+}
+
+#submitLabel {/*I added this block so I could contain the submit label within the demensions of the birthday card*/
+  display: block;
+}
+
+#wishinput { /*I added this block so I could contain the submit box and submit button within the demensions of the birthday card*/
+  inline-size: 100px;
+}
+
+#message {
+  color: black;
+  font-family: Courier;
+  font-size: 13pt; /*Changed the font size from 12pt to 13pt*/
+  font-family: 'Times New Roman', Times, serif; /*Changed the font family to "'Times New Roman', Times, serif"*/
+  text-align: center;
+}
+
+button {
+  background: silver;
+}
+
+#headerText { /*I added this for the bonus points*/
+  background-color: pink;
+}
+
+#backgroundImage { /*I added this for the bonus points*/
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 90%;
+  height: 90%;
+}
+
+#backgroundColor { /*I added this for the bonus points*/
+  background-color: pink;
+}
